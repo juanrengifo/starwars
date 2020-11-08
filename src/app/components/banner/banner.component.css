@@ -1,0 +1,35 @@
+.swiper-container {
+    /*padding-left: 10%;*/
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+    color: yellow;
+    text-decoration: solid;
+    position: ralative;
+}
+
+body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 30px;
+    /*background-image: url('./../../../assets/images/imagen-fondo.jpg');*/
+    background-color: transparent;
+    color: #444;
+    justify-content:center;
+    position: ralative;
+  }
+  
+  .box {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+  }

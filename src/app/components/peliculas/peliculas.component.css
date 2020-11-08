@@ -1,0 +1,68 @@
+.contentContainer {
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.filmlist {
+    color: snow ;
+}
+
+.busqueda {
+    margin: auto;
+    width: 645px;
+}
+
+.contentContainer h1 {
+    color: yellow;
+    font-size: 35px;
+}
+
+
+.contentContainer input {
+
+    height: 25px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 20px;
+}
+
+.title {
+    width: 75%;
+    height: auto;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.infoContainer {
+    width: 75%;
+    height: auto;
+    background-color: darkgray;
+    text-align: left;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.detalles {
+    text-align: center;
+    
+}
+
+.infoContainer p {
+    width: 90%;
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.infoContainer hr {
+    width: 90%;
+    margin: auto;
+}

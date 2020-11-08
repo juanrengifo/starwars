@@ -1,0 +1,19 @@
+div {
+    color: white;
+    text-align: center;
+}
+.imagen {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    background-color: #0000;
+}
+
+.text {
+   text-align: center;
+   color: yellow;
+}
+
+.button {
+    margin: 0 auto;
+}

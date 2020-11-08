@@ -1,0 +1,17 @@
+<div>
+    <b><h1 class="info">{{movie.title}} Species</h1></b>
+</div>
+<br><br><br>
+<div class="wrapper">
+  <div *ngFor="let nom of names; let i=index">
+    <a class="imagen" mat-raised-button (click)="abrirDialogo(numEspecie[i])">
+      <img src="./../../../assets/images/especie{{numEspecie[i]}}.jpg" class="imagen" alt="">
+      <br><br>
+      <h2>{{nom}}</h2>
+    </a>
+  </div>
+</div>
+<br><br>
+  <a [routerLink]="['/episodio', numId]">
+    <img class="img" src="./../../../assets/images/boton-atras.png">
+  </a>

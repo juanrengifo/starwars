@@ -1,0 +1,45 @@
+<div>
+    <b><h1 class="info">{{movie.title}}</h1></b>
+</div>
+<br><br><br>
+<div class="wrapper">
+    <div class="box a">
+      <a [routerLink]="['/personajes', numId]">
+        <img src="./../../../assets/images/Personajes.png" alt="">
+        <br><br>
+        <h2>CHARACTERS</h2>
+      </a>
+    </div>
+    <div class="box b">
+      <a [routerLink]="['/planetas', numId]">
+        <img src="./../../../assets/images/Planetas.png" alt="">
+        <br><br>
+        <h2>PLANETS</h2>
+      </a>
+    </div>
+    <div class="box c">
+      <a [routerLink]="['/especies', numId]">
+        <img src="./../../../assets/images/Razas.png" alt="">
+        <br><br>
+        <h2>SPECIES</h2>
+      </a>
+    </div>
+    <div class="box d">
+      <a [routerLink]="['/naves', numId]">
+        <img src="./../../../assets/images/Naves.png" alt="">
+        <br><br>
+        <h2>STARSHIPS</h2>
+      </a>
+    </div>
+    <div class="box e">
+      <a [routerLink]="['/vehiculos', numId]">
+        <img src="./../../../assets/images/Vehiculos.png" alt="">
+        <br><br>
+        <h2>VEHICLES</h2>
+    </a>
+    </div>
+  </div>
+  <br><br>
+    <a [routerLink]="['/peliculas', numId]">
+      <img class="img" src="./../../../assets/images/boton-atras.png">
+    </a>

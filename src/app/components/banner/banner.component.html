@@ -1,0 +1,43 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" *ngFor="let img of images">
+        <img class="imgbanner"[src]="img" alt="imagen del banner">
+      </div>
+    </div>
+</div>
+<br><br><br><br>
+
+<div class="welcome">
+  <h1>
+    <p>¡¡¡ Welcome to the Wonderful Universe of -- Star Wars -- !!!</p>
+  </h1>
+  <br>
+  <h3>
+    <p>For more details of your favorite movies, click on the "Films" option at the top or click on the images below.</p>
+  </h3>
+</div>
+<br><br><br><br><br>
+<div class="wrapper">
+  <div class="box a">
+    <a [routerLink]="['/peliculas', 3]"><img src="./../../../assets/images/4 The Phantom Menace.jpg" alt=""></a>
+  </div>
+  <div class="box b">
+    <a [routerLink]="['/peliculas', 4]"><img src="./../../../assets/images/5 Attack of the Clones.jpg" alt=""></a>
+  </div>
+  <div class="box c">
+    <a [routerLink]="['/peliculas', 5]"><img src="./../../../assets/images/6 Revenge of the Sith.jpg" alt=""></a>
+  </div>
+  <div class="box d">
+    <a [routerLink]="['/peliculas', 0]"><img src="./../../../assets/images/1 A New Hope.jpg" alt=""></a>
+  </div>
+  <div class="box e">
+    <a [routerLink]="['/peliculas', 1]"><img src="./../../../assets/images/2 The Empire Strikes Back.jpg" alt=""></a>
+  </div>
+  <div class="box f">
+    <a [routerLink]="['/peliculas', 2]"><img src="./../../../assets/images/3 Return of the Jedi.jpg" alt=""></a>
+  </div>
+  <div class="box g">
+    <a [routerLink]="['/peliculas', 6]"><img src="./../../../assets/images/7 The Force Awakens.jpg" alt=""></a>
+  </div>
+</div>
+  
